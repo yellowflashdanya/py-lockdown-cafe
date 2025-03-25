@@ -3,6 +3,7 @@ from app.errors import (NotVaccinatedError,
                         NotWearingMaskError)
 from app.cafe import Cafe
 
+
 def go_to_cafe(friends: list, cafe: Cafe) -> str:
     mask_to_buy = 0
     vaccination_issue = False
